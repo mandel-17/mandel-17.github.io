@@ -3,3 +3,5 @@ gemspec
 
 gem "csv"
 gem "base64"
+
+gem "jekyll-sitemap"

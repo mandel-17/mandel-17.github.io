@@ -110,6 +110,7 @@ DEPENDENCIES
   base64
   bundler
   csv
+  jekyll-sitemap
   minimal-mistakes-jekyll!
   rake (>= 12.3.3)
 
