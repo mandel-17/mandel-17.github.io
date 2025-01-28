@@ -1,6 +1,7 @@
 ---
 Layout: post
 title: "깃헙 블로그 만들기"
+comments: true
 ---
 
 # 헤드 1
