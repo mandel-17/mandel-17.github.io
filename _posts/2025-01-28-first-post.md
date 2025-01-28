@@ -1,7 +1,12 @@
 ---
 Layout: post
-title: "깃헙 블로그 만들기"
+title: 깃헙 블로그 만들기
 comments: true
+tags:
+  - GitHub
+  - 글쓰기
+categories:
+  - 기타
 ---
 ## 첫 블로그 게시
 그동안 네이버나 티스토리 등 다양한 블로그를 사용했지만 작심삼일에 불과했다.
