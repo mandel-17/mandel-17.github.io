@@ -8,15 +8,16 @@ on:
 jobs:
   merge-branch:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-
+      
       - name: Merge develop to main
-        run: |
-          git config user.name sangyoon
-          git config user.email lsyo6171@gmail.com
-          git checkout main
-          git merge --no-ff origin/develop
-          git push origin main
+        uses: devvspaces/merge-branches@v1
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          from_branch: develop
+          to_branch: main
