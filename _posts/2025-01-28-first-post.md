@@ -2,6 +2,7 @@
 Layout: post
 title: 깃헙 블로그 만들기
 comments: true
+toc: true
 tags:
   - GitHub
   - 글쓰기
