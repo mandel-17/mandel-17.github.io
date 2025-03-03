@@ -14,7 +14,7 @@ categories:
 ### 안정 궤도
 삶에 있어서 안정은 중요하다고 생각합니다. 안정은 현재 상태에 만족하며 가만히 있는 것이 아닌 마음이 편안한 상태로 나아가는 것을 말합니다. 삶의 과정에서 안정된 상태로 걸어가는 상황이 있는데, 이를 안정 궤도라고 부르려고 합니다. 안정 궤도를 2 차원으로 표현해보았습니다.
 
-[![foo](https://raw.githubusercontent.com/mandel-17/mandel-17.github.io/refs/heads/main/assets/images/stable-orbit.jpg)]
+![stable-orbit](https://raw.githubusercontent.com/mandel-17/mandel-17.github.io/refs/heads/main/assets/images/stable-orbit.jpg)
 
 안정 궤도에 머무른 다면 힘든 순간이 오더라도 곧 다시 일어설 수 있습니다. 그렇다면 어떻게 안정 궤도에 지속적으로 머무를 수 있을까요? 가장 중요한 3가지를 꼽아보았습니다.
 
