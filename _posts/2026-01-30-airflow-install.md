@@ -47,7 +47,7 @@ Airflow에 대한 글이기에 앞의 사전 환경 세팅 내용은 아래와 �
 	```
 
 2. 폴더 사전 세팅
-	서비스에 사용되는 폴더 미리 세팅 ( `./dags`, `./logs`, `./plugins`, `./config`)
+	서비스에 사용되는 폴더 미리 세팅
 	```bash
 	mkdir -p ./dags ./logs ./plugins ./config
 	echo -e "AIRFLOW_UID=$(id -u)" > .env
@@ -73,9 +73,10 @@ Airflow에 대한 글이기에 앞의 사전 환경 세팅 내용은 아래와 �
 
 5. Airflow 페이지 접속
 	URL은 `localhost:8080` 에 접속하면 된다.
-	![[airflow-home-page.png]]
+	![airflow-home-page.png](https://raw.githubusercontent.com/mandel-17/mandel-17.github.io/refs/heads/main/assets/images/airflow-home-page.png)
 6. 샘플 DAG 실행
 	Airflow에서 제공한 DAG 중 `example_bash_operator`를 실행 해보았다.
-	![[dag-run-test.png]]
+	![dag-run-test.png](https://raw.githubusercontent.com/mandel-17/mandel-17.github.io/refs/heads/main/assets/images/dag-run-test.png)
 	성공적으로 실행했으며 건너 띈 인스턴스가 2개 있는 것을 확인했다.
-	![[result-of-dag-run.png]]
+	![result-of-dag-run.png](https://raw.githubusercontent.com/mandel-17/mandel-17.github.io/refs/heads/main/assets/images/result-of-dag-run.png)
+	
