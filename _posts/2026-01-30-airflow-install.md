@@ -6,10 +6,9 @@ tags:
   - Airflow
 comments: true
 toc: true
-title: 깃헙 블로그 만들기
+title: Airflow 설치하기
 Layout: post
 ---
-## Airflow 환경 구축하기
 ### Airflow 란?
 파이썬을 활용해서 복잡한 데이터 처리 작업을 자동화하는 오픈플랫폼 서비스이다.
 
