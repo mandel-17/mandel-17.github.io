@@ -79,4 +79,9 @@ Airflow에 대한 글이기에 앞의 사전 환경 세팅 내용은 아래와 �
 	![dag-run-test.png](https://raw.githubusercontent.com/mandel-17/mandel-17.github.io/refs/heads/main/assets/images/dag-run-test.png)
 	성공적으로 실행했으며 건너 띈 인스턴스가 2개 있는 것을 확인했다.
 	![result-of-dag-run.png](https://raw.githubusercontent.com/mandel-17/mandel-17.github.io/refs/heads/main/assets/images/result-of-dag-run.png)
-	
+
+### 레퍼런스
+- [인프런 - Airflow 마스터 클래스](https://www.inflearn.com/course/airflow-%EB%A7%88%EC%8A%A4%ED%84%B0-%ED%81%B4%EB%9E%98%EC%8A%A4/dashboard?cid=331648)
+- [Running Airflow in Docker](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
+- [Airflow docker-compose 설치](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html)
+- [Docker Ubuntu 설치](https://docs.docker.com/engine/install/ubuntu/)
