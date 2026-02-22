@@ -44,15 +44,15 @@ categories:
 ### 2. 데이터 구조
 데이터 구조는 3가지 단계를 걸쳐서 이루어 진다. 
 
-##### staging
+#### staging
 - 소스 정의: 로우 데이터에 대한 정의
 - 스테이징 모델: 최소한의 정제로 데이터를 각각 테이블에 1 대 1 복사하기
 
-##### intermeidate
+#### intermeidate
 - 복잡한 조인 수행
 - 더러운 데이터 클린징 또는 정규화
 
-##### marts
+#### marts
 - 최종적으로 사용할 수 있는 데이터 존재
 - 대쉬보드를 통해 유저한테 제공할 데이터
 
@@ -60,12 +60,12 @@ categories:
 ### 3. dbt 주요 커맨드
 #### 3.1. 초기 설정 명령어
 
-|명령어|설명|
-|---|---|
-|`dbt init`|프로젝트 디렉토리 구조 생성 (최초 1회)|
-|`dbt debug`|DB 연결 및 `profiles.yml` 유효성 검사|
-|`dbt deps`|`packages.yml`의 패키지 설치|
-|`dbt clean`|`target/`, `dbt_packages/` 등 빌드 산출물 삭제|
+| 명령어         | 설명                                     |
+| ----------- | -------------------------------------- |
+| `dbt init`  | 프로젝트 디렉토리 구조 생성 (최초 1회)                |
+| `dbt debug` | DB 연결 및 `profiles.yml` 유효성 검사          |
+| `dbt deps`  | `packages.yml`의 패키지 설치                 |
+| `dbt clean` | `target/`, `dbt_packages/` 등 빌드 산출물 삭제 |
 
 #### 3.2. 기능별 명령어
 
